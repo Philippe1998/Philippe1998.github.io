@@ -278,17 +278,29 @@ only screen and (max-width: 1100px){
 	}
 
 	.antworten {
-		margin-left: 450px;
-		margin-top: 600px;
+		margin-left: 240px;
+		max-width: 590px;
+		margin-top: 250px;
+	
 	}	
+	
+	#bu1, #bu2, #bu3, #bu4, #bu5, #bu6, #bu7, #bu8, #bu9, #bu10, #bu11, #bu12, #bu13, #bu14, #bu15, #bu16, #bu17, #bu18, #bu19, #bu20 {
+		width: 100px;
+		font-size: 16px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 350px;
+	}
+
 
 	#imspiel {
 		margin-left: -100px;
 	}
 
 	.pic {
-		margin-top: -700px;
+		margin-top: -500px;
 		margin-left: 100px;
+		
 	}
 	#richtigerSinn {
 		margin-left: 200px;	
@@ -309,18 +321,39 @@ only screen and (max-width: 800px){
 	}
 	.antworten {
 		margin-left: 105px;
-		margin-top: 600px;
+		
 	}
 	#richtigerSinn {
 		margin-left: 110px;	
 		margin-bottom: -150px;
 	}	
+
+	#bu1, #bu2, #bu3, #bu4, #bu5, #bu6, #bu7, #bu8, #bu9, #bu10, #bu11, #bu12, #bu13, #bu14, #bu15, #bu16, #bu17, #bu18, #bu19, #bu20 {
+		width: 80px;
+		font-size: 12px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: - 200px;
+	}
 }
 
 @media 
 only screen and (max-width: 610px){
 	.finalpic {
 		width: 150px;
+	}
+	.antworten {
+		margin-top: 500px;
+		max-width: 240px;
+	
+	}
+
+	.pic {
+		margin-top: -500px;
+	}
+	
+	#bu1, #bu2, #bu3, #bu4, #bu5, #bu6, #bu7, #bu8, #bu9, #bu10, #bu11, #bu12, #bu13, #bu14, #bu15, #bu16, #bu17, #bu18, #bu19, #bu20 {
+		margin-top: 10px;
 	}
 
 }
