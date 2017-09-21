@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<title>Montagsmaler</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+		
+	</head>
+	<body>
+		<div id="startbild">
+			<center><h1>Herzlich willkommen</h1></center>
+			<center><button id="start">start</button></center>
+			<center><h3>Versuche m&ouml;glichst viele Bilder richtig zu erraten !</h3></center>
+		</div>
+
+
+
+
+		<div id="imspiel">
+			<h3 id="richtigerSinn">W&auml;hle den richtigen Sinn aus, welcher dieses Bild beschreibt</h3>
+			<div class="antworten" id="antwort1">
+				
+				<button id="bu1" class="aus1">F&uuml;hlen</button>
+				<button id="bu2" class="aus1">Sehen</button>
+				<button id="bu3" class="aus1">H&ouml;ren</button>
+				<button id="bu4" class="aus1">Schmecken</button>
+				<button id="bu5" class="aus1">Riechen</button>
+			</div>
+			<div class="antworten" id="antwort2">
+				
+				<button id="bu6" class="aus2">F&uuml;hlen</button>
+				<button id="bu7" class="aus2">Sehen</button>
+				<button id="bu8" class="aus2">H&ouml;ren</button>
+				<button id="bu9" class="aus2">Schmecken</button>
+				<button id="bu10" class="aus2">Riechen</button>
+			</div>
+			<div class="antworten" id="antwort3">
+				
+				<button id="bu11" class="aus3">F&uuml;hlen</button>
+				<button id="bu12" class="aus3">Sehen</button>
+				<button id="bu13" class="aus3">H&ouml;ren</button>
+				<button id="bu14" class="aus3">Schmecken</button>
+				<button id="bu15" class="aus3">Riechen</button>
+			</div>	
+			<div class="antworten" id="antwort4">
+				
+				<button id="bu16" class="aus4">F&uuml;hlen</button>
+				<button id="bu17" class="aus4">Sehen</button>
+				<button id="bu18" class="aus4">H&ouml;ren</button>
+				<button id="bu19" class="aus4">Schmecken</button>
+				<button id="bu20" class="aus4">Riechen</button>
+			</div>
+		</div>
+
+
+
+
+
+		<div id="liste">
+			<center><button id="zurückStart" class="reflesh">zur&uuml;ck an den Start</button></center>
+			<center><h2>deine Resultate:</h2></center> 
+			
+			
+			
+				<div id="pro">
+					<h4 class="prozent">&nbsp du hattest &nbsp</h4>
+					<h4 class="prozent" id="prozent"></h4>
+					<h4 class="prozent"> % richtig &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</h4>
+				</div>
+			
+			
+				<div id="pun"><h4 id="schriftzug">Punkte: &nbsp</h4><h4 id="punkten"></h4></div>
+			
+
+			
+			<table id="tab" cellpadding=10>
+			<tbody>
+			<tr><td><img class="finalpic" src="images/nase2fertig.png"></td><td class="lösung" id="bild1">falsch</td><td class="ric">richtige Antwort: Riechen</td></tr>
+			<tr><td><img class="finalpic" src="images/nase1fertig.png"></td><td class="lösung" id="bild2">falsch</td><td class="ric">richtige Antwort: Riechen</td></tr>
+			<tr><td><img class="finalpic" src="images/auge1fertig.png"></td><td class="lösung" id="bild3">falsch</td><td class="ric">richtige Antwort: Sehen</td></tr>
+			<tr><td><img class="finalpic" src="images/ohr1fertig.png"></td><td class="lösung" id="bild4">falsch</td><td class="ric">richtige Antwort: H&ouml;ren</td></tr>
+			</tbody>
+			</table>
+			</center>
+	
+			
+		</div>
+
+
+		<span class="c"></span>
+		<div class="pic" id="nase2"></div>
+		<div class="pic" id="nase1"></div>
+		<div class="pic" id="auge1"></div>
+		<div class="pic" id="ohr1"></div>
+	</body>
+</html>
