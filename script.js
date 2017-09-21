@@ -95,7 +95,7 @@ $(function(){
 					$("#nase1").hide();
 					$("#auge1").hide();
 					$("#ohr1").hide();
-					$("#nase2").css({"animation": "walk-east 6.0s steps(6) 1"});	
+					$("#nase2").css({"animation": "walk-east 6.0s steps(6) 1", "-webkit-animation": "walk-east 6.0s steps(6) 1"});	
 					},1000);
 
 					setTimeout( function(){	
@@ -103,7 +103,7 @@ $(function(){
 					$("#nase1").show();
 					$("#auge1").hide();
 					$("#ohr1").hide();
-        					$("#nase1").css({"animation": "walk-east 6.0s steps(6) 1"});
+        					$("#nase1").css({"animation": "walk-east 6.0s steps(6) 1", "-webkit-animation": "walk-east 6.0s steps(6) 1"});
     					},7000);
 
 					setTimeout( function(){
@@ -111,7 +111,7 @@ $(function(){
 					$("#nase1").hide();
 					$("#auge1").show();
 					$("#ohr1").hide();
-        					$("#auge1").css({"animation": "walk-east 6.0s steps(6) 1"});
+        					$("#auge1").css({"animation": "walk-east 6.0s steps(6) 1", "-webkit-animation": "walk-east 6.0s steps(6) 1"});
     					},13000);
 					
 					setTimeout( function(){
@@ -119,7 +119,7 @@ $(function(){
 					$("#nase1").hide();
 					$("#auge1").hide();
 					$("#ohr1").show();
-        					$("#ohr1").css({"animation": "walk-east 6.0s steps(6) 1"});
+        					$("#ohr1").css({"animation": "walk-east 6.0s steps(6) 1", "-webkit-animation": "walk-east 6.0s steps(6) 1"});
     					},19000);
 					
 
