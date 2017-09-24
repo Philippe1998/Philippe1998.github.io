@@ -18,7 +18,7 @@ $(function(){
 						$(".ric").show();
 					}
 				}					
-		
+
 
 				var ergebnis = 0;
 				var punkte1 = 0;
@@ -32,14 +32,14 @@ $(function(){
 				$("#antwort3").hide();
 				$("#antwort4").hide();
 				$("#richtigerSinn").hide();
+				$("#liste").hide();
 				$("#nase2").hide();			
 				$("#nase1").hide();
 				$("#auge1").hide();
 				$("#ohr1").hide();
 				$("#pr").hide();
 				$("#punk").hide();
-				$("#liste").hide();
-								
+
 
 				$(".reflesh").on("click", function() {
 					location.reload();
@@ -335,6 +335,7 @@ $(function(){
 					if(n == 0) {
 						
 						$("#imspiel").hide();
+						$("#liste").show();
 						ergebnis = (ergebnis / 4) * 100;
 						$("#pr").val(ergebnis);
 						$("#prozent").html(ergebnis);
@@ -345,7 +346,7 @@ $(function(){
 						$("#nase1").hide();
 						$("#auge1").hide();
 						$("#ohr1").hide();
-						$("#liste").show();
+					
 					}
         					},1000);
 				}
@@ -353,9 +354,6 @@ $(function(){
 				setInterval(function(){
 				},25000);
 			});
-
-			
-	
 });
 
 

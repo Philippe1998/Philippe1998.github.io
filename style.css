@@ -37,8 +37,7 @@ h4 {
 
 
 #tab {
-	margin-top: 50px;
-	margin-bottom: 200px;
+	margin-top: 200px;
 }
 
 .prozent {
@@ -287,9 +286,10 @@ h4 {
 	margin-bottom: -50px;
 }
 
-
-
-
+.lösung {
+	padding-right: 100px;
+	padding-left: 100px;
+}
 
 td {
 	font-family: Arial;
@@ -297,14 +297,13 @@ td {
 }
 
 #clickme {
-	margin-bottom 50px;
+	margin-bottom: 50px;
 	margin-left: 50px;
 }
 
-.ric {
-	padding-right: 100px;
-	padding-left: 100px;
-}
+
+
+
 
 
 @media 
