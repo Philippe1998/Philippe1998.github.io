@@ -38,7 +38,7 @@ $(function(){
 				$("#ohr1").hide();
 				$("#pr").hide();
 				$("#punk").hide();
-
+				$("#liste").hide();
 								
 
 				$(".reflesh").on("click", function() {
@@ -345,7 +345,7 @@ $(function(){
 						$("#nase1").hide();
 						$("#auge1").hide();
 						$("#ohr1").hide();
-						$('#formular').submit();
+						$("#liste").show();
 					}
         					},1000);
 				}
