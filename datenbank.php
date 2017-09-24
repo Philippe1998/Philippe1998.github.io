@@ -14,7 +14,7 @@
 
 
 
-$verbindung = mysqli_connect("localhost", "DP", "gfjkdhgj")
+$verbindung = mysqli_connect('localhost', 'DP', 'gfjkdhgj')
 or die("Tut uns leid, es gab einen Fehler im System, Fehler1");
 
 mysqli_select_db($verbindung, "abschlussprojekt")
