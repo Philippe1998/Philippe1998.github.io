@@ -18,7 +18,7 @@ $(function(){
 						$(".ric").show();
 					}
 				}					
-
+		
 
 				var ergebnis = 0;
 				var punkte1 = 0;
@@ -32,16 +32,22 @@ $(function(){
 				$("#antwort3").hide();
 				$("#antwort4").hide();
 				$("#richtigerSinn").hide();
-				$("#liste").hide();
 				$("#nase2").hide();			
 				$("#nase1").hide();
 				$("#auge1").hide();
 				$("#ohr1").hide();
+				$("#pr").hide();
+				$("#punk").hide();
+
+								
 
 				$(".reflesh").on("click", function() {
 					location.reload();
 				});
-
+		
+				$("#clickme").on("click", function() {
+					alert("Dein Score wurde eingetragen, danke für die Teilnahme");
+				});
 
 
 			$("#start").on("click", function() {
@@ -329,15 +335,17 @@ $(function(){
 					if(n == 0) {
 						
 						$("#imspiel").hide();
-						$("#liste").show();
 						ergebnis = (ergebnis / 4) * 100;
+						$("#pr").val(ergebnis);
 						$("#prozent").html(ergebnis);
 						var punkte = punkte1 + punkte2 + punkte3 + punkte4;
-						$("#punkten").html(punkte);
+						$("#punk").val(punkte);
+						$("#pu").html(punkte);
 						$("#nase2").hide();			
 						$("#nase1").hide();
 						$("#auge1").hide();
 						$("#ohr1").hide();
+						$('#formular').submit();
 					}
         					},1000);
 				}
@@ -345,6 +353,9 @@ $(function(){
 				setInterval(function(){
 				},25000);
 			});
+
+			
+	
 });
 
 

@@ -37,7 +37,7 @@ h4 {
 
 
 #tab {
-	margin-top: 200px;
+	margin-top: 50px;
 	margin-bottom: 200px;
 }
 
@@ -104,7 +104,7 @@ h4 {
 	box-shadow: 0px 17px 10px -7px; 
 	rgba(0,0,0,0.4); 
 
-	border: solid 3px #db5757;
+	border: 3px solid #db5757;
 	border-radius: 5px;
 
 	text-align: center;
@@ -258,19 +258,52 @@ h4 {
 
 }
 
+.submitbutton{
+	font-size: 20px;
+	margin-top:100px;
+	width: 560px;
+	height: 50px;
+	color: #c5c5c5; 
+	background-color: #fdfdfd; 
+
+	border: solid 3px #c5c5c5;
+	border-radius: 40px;
+
+	text-align: center;
+	font-family: Arial;
+	letter-spacing: 1px;
+	transition: ease-in-out all 400ms;
+}
+
+.submitbutton:hover {
+	color: #fdfdfd;
+	background-color: #c5c5c5;
+
+}
+
+
 #richtigerSinn {
 	margin-top: 50px;
 	margin-bottom: -50px;
 }
 
-.lösung {
-	padding-right: 100px;
-	padding-left: 100px;
-}
+
+
+
 
 td {
 	font-family: Arial;
 	color: grey;
+}
+
+#clickme {
+	margin-bottom 50px;
+	margin-left: 50px;
+}
+
+.ric {
+	padding-right: 100px;
+	padding-left: 100px;
 }
 
 
